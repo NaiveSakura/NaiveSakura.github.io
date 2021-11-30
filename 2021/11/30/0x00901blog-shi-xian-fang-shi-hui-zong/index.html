@@ -21,7 +21,7 @@
 <meta property="og:image" content="http://example.com/2021/11/30/0x00901blog-shi-xian-fang-shi-hui-zong/0x00901blog-shi-xian-fang-shi-hui-zong/image-20211130185930357.png">
 <meta property="og:image" content="http://example.com/2021/11/30/0x00901blog-shi-xian-fang-shi-hui-zong/0x00901blog-shi-xian-fang-shi-hui-zong/image-20211130190226575.png">
 <meta property="article:published_time" content="2021-11-30T10:36:28.729Z">
-<meta property="article:modified_time" content="2021-11-30T11:11:47.749Z">
+<meta property="article:modified_time" content="2021-11-30T11:40:13.491Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/2021/11/30/0x00901blog-shi-xian-fang-shi-hui-zong/0x00901blog-shi-xian-fang-shi-hui-zong/image-20211127122645447.png">
@@ -221,7 +221,7 @@
 <h2 id="4-Github托管"><a href="#4-Github托管" class="headerlink" title="4.Github托管"></a>4.Github托管</h2><h3 id="4-1Github准备"><a href="#4-1Github准备" class="headerlink" title="4.1Github准备"></a>4.1Github准备</h3><p>​    首先你要先有一个<a target="_blank" rel="noopener" href="https://link.jianshu.com/?t=https://github.com/">Github</a> 账号，可以直接去注册一个账号。<br> 注册完成之后，登录，创建一个新的存储仓库：new repositories</p>
 <p>点击新建仓库之后，仓库名格式应该为：用户名(注册昵称).github.io</p>
 <h3 id="4-2Git与Github的连接与使用"><a href="#4-2Git与Github的连接与使用" class="headerlink" title="4.2Git与Github的连接与使用"></a>4.2Git与Github的连接与使用</h3><p>​        回到命令行，输入以下命令，在git终端分别配置自己的用户名和邮箱：</p>
-<figure class="highlight autoit"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --<span class="keyword">global</span> user.name XXX   <span class="meta"># XXX表示你github注册时的用户名</span></span><br><span class="line">git config --<span class="keyword">global</span> user.email XXX  <span class="meta"># XXX表示你github注册时的邮箱</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight autoit"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">git config --<span class="keyword">global</span> user.name XXX   <span class="meta"># XXX表示你github注册时的用户名</span></span><br><span class="line">git config --<span class="keyword">global</span> user.email XXX  <span class="meta"># XXX表示你github注册时的邮箱</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">git config --<span class="keyword">global</span> user.name NaiveSakura</span><br><span class="line">git config --<span class="keyword">global</span> user.email <span class="number">1152584792</span><span class="symbol">@qq</span>.com</span><br><span class="line">ssh-keygen -t rsa -C <span class="number">1152584792</span><span class="symbol">@qq</span>.com</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <p>​      接着输入以下命令生成密钥：</p>
 <figure class="highlight excel"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -<span class="built_in">t</span> rsa -C <span class="string">&quot;Github上你注册的邮箱地址&quot;</span></span><br><span class="line">回车</span><br></pre></td></tr></table></figure>
@@ -249,7 +249,7 @@
 <pre><code>         第一次部署需要输入github用户名和密码
 </code></pre>
 <p>   此时我们可以看到在我们的仓库中多出了很多文件</p>
-<p> 以上过程证明我们在GitHub部署成功，我们直接何以通过github地址访问了</p>
+<p> 以上过程证明我们在GitHub部署成功，我们直接通过github地址访问了</p>
 <p>方式三：</p>
 <p>​        下载一个Github客户端，安装好后登陆，然后Clone下来刚创建的仓库，Clone的时候，会让你选择Clone的地方，记住这个地方，到你的本地创建的Hexo博客文件夹下，找到public文件夹，将public文件夹下的所有东西，全部粘贴到你刚刚Clone下来的仓库中。打开GitHub Windows客户端，你本地的代码已经有了改变，所以客户端会提醒你让你 Commit to master,把该填的一填，然后Commit，Commit完成之后，别忘了点击右上角的 publish ，通过Github客户端提交上去，完成部署。</p>
 <blockquote>
@@ -333,7 +333,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/11/30/0x00901blog-shi-xian-fang-shi-hui-zong/" data-id="ckwlyyvn30015yovqfs6mgs15" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/11/30/0x00901blog-shi-xian-fang-shi-hui-zong/" data-id="ckwm3k1b40015w4vq6i218ff4" class="article-share-link">Share</a>
       
       
     </footer>
